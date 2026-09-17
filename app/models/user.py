@@ -17,6 +17,9 @@ class User(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     email: Mapped[str] = mapped_column(String(255), unique=True, index=True)
     api_key: Mapped[str] = mapped_column(String(64), unique=True, index=True, default=_generate_api_key)
+    # Null for users created via the legacy API-key-only POST /users flow; set for
+    # accounts created via POST /auth/register, which can also log in via POST /auth/login.
+    password_hash: Mapped[str | None] = mapped_column(String(255), nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
 
     social_accounts: Mapped[list["SocialAccount"]] = relationship(

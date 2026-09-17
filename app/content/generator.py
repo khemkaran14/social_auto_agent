@@ -45,7 +45,7 @@ hashtags at the end at most), and a natural, human voice."""
 
 class ContentGenerator:
     def __init__(self, client: anthropic.Anthropic | None = None, model: str | None = None):
-        self.client = client or anthropic.Anthropic(api_key=settings.anthropic_api_key)
+        self.client = client or anthropic.Anthropic(api_key=settings.anthropic_api_key, max_retries=3)
         self.model = model or settings.content_model
 
     def generate_post(self, niche: Niche, recent_posts: list[str], max_length: int = 3000) -> str:

@@ -20,6 +20,9 @@ class PostSchedule(Base):
     interval_hours: Mapped[int] = mapped_column(Integer, default=24)
     timezone: Mapped[str] = mapped_column(String(64), default="UTC")
     active: Mapped[bool] = mapped_column(Boolean, default=True)
+    # When true, generated posts are held as PostStatus.pending_approval instead of
+    # being published immediately; a human must call the approve endpoint to publish.
+    require_approval: Mapped[bool] = mapped_column(Boolean, default=False)
 
     last_run_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))

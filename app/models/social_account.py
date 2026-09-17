@@ -15,6 +15,7 @@ class Platform(str, enum.Enum):
     """
 
     linkedin = "linkedin"
+    twitter = "twitter"
 
 
 class SocialAccount(Base):
@@ -31,7 +32,7 @@ class SocialAccount(Base):
     refresh_token_encrypted: Mapped[str | None] = mapped_column(String, nullable=True)
     token_expires_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
 
-    status: Mapped[str] = mapped_column(String(32), default="active")  # active | revoked
+    status: Mapped[str] = mapped_column(String(32), default="active")  # active | revoked | needs_reauth
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
 
     user: Mapped["User"] = relationship(back_populates="social_accounts")

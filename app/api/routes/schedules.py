@@ -6,7 +6,6 @@ from app.api.deps import get_owned_social_account
 from app.database import get_db
 from app.models.schedule import PostSchedule
 from app.models.social_account import SocialAccount
-from app.scheduler import scheduler
 
 router = APIRouter(prefix="/social-accounts/{social_account_id}/schedule", tags=["schedules"])
 
@@ -15,6 +14,9 @@ class ScheduleRequest(BaseModel):
     interval_hours: int = Field(default=24, ge=1, le=24 * 30)
     timezone: str = "UTC"
     active: bool = True
+    # When true, generated posts wait for a human to call the approve endpoint
+    # instead of publishing immediately.
+    require_approval: bool = False
 
 
 class ScheduleResponse(ScheduleRequest):
@@ -43,12 +45,10 @@ def upsert_schedule(
     schedule.interval_hours = payload.interval_hours
     schedule.timezone = payload.timezone
     schedule.active = payload.active
+    schedule.require_approval = payload.require_approval
     db.commit()
     db.refresh(schedule)
-
-    if schedule.active:
-        scheduler.upsert_job(account.id, schedule.interval_hours)
-    else:
-        scheduler.remove_job(account.id)
-
+    # No job registration needed: the Celery beat dispatcher (app.tasks) polls
+    # this table directly, so a plain DB write is all that's required for the
+    # change to take effect on its next pass.
     return schedule

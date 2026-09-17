@@ -9,8 +9,10 @@ from app.database import Base
 
 class PostStatus(str, enum.Enum):
     draft = "draft"
+    pending_approval = "pending_approval"
     posted = "posted"
     failed = "failed"
+    rejected = "rejected"
 
 
 class Post(Base):
@@ -22,6 +24,7 @@ class Post(Base):
 
     content: Mapped[str] = mapped_column(Text)
     status: Mapped[str] = mapped_column(String(32), default=PostStatus.draft.value)
+    image_url: Mapped[str | None] = mapped_column(String(1024), nullable=True)
 
     platform_post_id: Mapped[str | None] = mapped_column(String(255), nullable=True)
     error_message: Mapped[str | None] = mapped_column(Text, nullable=True)

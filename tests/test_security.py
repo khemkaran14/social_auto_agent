@@ -42,3 +42,27 @@ def test_verify_state_rejects_expired_token(monkeypatch):
     monkeypatch.setattr(time, "time", lambda: future)
     with pytest.raises(ValueError):
         security.verify_state(token)
+
+
+def test_password_hash_roundtrip():
+    password_hash = security.hash_password("correct-horse-battery-staple")
+    assert password_hash != "correct-horse-battery-staple"
+    assert security.verify_password("correct-horse-battery-staple", password_hash)
+    assert not security.verify_password("wrong-password", password_hash)
+
+
+def test_access_token_roundtrip():
+    token = security.create_access_token(user_id=7)
+    assert security.decode_access_token(token) == 7
+
+
+def test_access_token_rejects_expired(monkeypatch):
+    monkeypatch.setattr(get_settings(), "jwt_access_token_expire_minutes", -1)
+    token = security.create_access_token(user_id=7)
+    with pytest.raises(ValueError):
+        security.decode_access_token(token)
+
+
+def test_access_token_rejects_garbage():
+    with pytest.raises(ValueError):
+        security.decode_access_token("not-a-real-token")

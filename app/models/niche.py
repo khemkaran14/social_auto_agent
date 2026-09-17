@@ -22,6 +22,8 @@ class Niche(Base):
     tone: Mapped[str] = mapped_column(String(64), default="professional")
     content_pillars: Mapped[list[str]] = mapped_column(JSON, default=list)
     keywords: Mapped[list[str]] = mapped_column(JSON, default=list)
+    # Optional image attached to every generated post (e.g. a brand logo/banner).
+    default_image_url: Mapped[str | None] = mapped_column(String(1024), nullable=True)
 
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
     updated_at: Mapped[datetime] = mapped_column(

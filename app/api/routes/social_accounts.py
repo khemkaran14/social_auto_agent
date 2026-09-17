@@ -6,7 +6,6 @@ from app.api.deps import get_current_user, get_owned_social_account
 from app.database import get_db
 from app.models.social_account import SocialAccount
 from app.models.user import User
-from app.scheduler import scheduler
 
 router = APIRouter(prefix="/social-accounts", tags=["social-accounts"])
 
@@ -37,4 +36,5 @@ def disconnect_social_account(
 ) -> None:
     account.status = "revoked"
     db.commit()
-    scheduler.remove_job(account.id)
+    # No job to explicitly cancel: the Celery beat dispatcher only picks up
+    # schedules on accounts with status == "active", so this alone stops it.

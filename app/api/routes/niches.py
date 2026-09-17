@@ -16,6 +16,7 @@ class NicheRequest(BaseModel):
     tone: str = "professional"
     content_pillars: list[str] = []
     keywords: list[str] = []
+    default_image_url: str | None = None
 
 
 class NicheResponse(NicheRequest):
@@ -46,6 +47,7 @@ def upsert_niche(
     niche.tone = payload.tone
     niche.content_pillars = payload.content_pillars
     niche.keywords = payload.keywords
+    niche.default_image_url = payload.default_image_url
     db.commit()
     db.refresh(niche)
     return niche
