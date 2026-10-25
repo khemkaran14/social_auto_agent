@@ -15,6 +15,22 @@ non-starter for something meant to run unattended, let alone be resold to
 other users. Each end user authorizes the app once via OAuth; nothing about
 their login credentials ever touches this app.
 
+## Promotion Manager (campaign mode)
+
+A second, serverless way to run this: no database, no Celery, no hosting
+bill. Used to promote the Divyrs family of products.
+
+- `campaign/brands.yaml`: the pages we post as, and facts about each product
+- `campaign/queue/<week>.yaml`: the week's posts, and after posting, their results
+- `campaign/publish.py`: posts what's due; GitHub Actions runs it every 30 minutes
+  (`.github/workflows/publish.yml`)
+- `campaign/render-cards.mjs`: makes the post images
+- `campaign/PLAYBOOK.md`: what the weekly Claude run does
+- `campaign/SETUP.md`: connecting Facebook, Instagram and LinkedIn pages
+
+Supports Facebook Pages and Instagram (`app/platforms/meta.py`) and
+LinkedIn company pages, alongside the existing LinkedIn and X code.
+
 ## How it works
 
 1. A user registers -- either `POST /auth/register` (email+password, get a
@@ -67,7 +83,9 @@ and `/auth/{platform_name}/authorize|callback` picks up any registered
 platform automatically.
 
 **Deliberately not implemented (and why):**
-- **Instagram/Threads (Meta):** posting requires a Business/Creator account
+- **Instagram/Threads (Meta) in the web app's OAuth flow:** campaign mode
+  posts to Instagram and Facebook with Page tokens; the web app does not.
+  Posting requires a Business/Creator account
   linked to a Facebook Page, mandatory image/video attachments (no
   text-only posts), and a Meta App Review process that's materially harder
   to get through than LinkedIn's or Twitter's. Worth adding once there's an

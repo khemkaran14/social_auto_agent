@@ -1,0 +1,427 @@
+week: '2026-10-26'
+posts:
+- id: 2026-10-26-divyrs-ig-1
+  account: divyrs-instagram
+  publish_at: 2026-10-26 19:30
+  status: approved
+  text: |
+    In a room of just 23 people, there's a better than 50% chance two of them share a birthday.
+
+    Most people guess you'd need around 183. The trick: you're not matching one person, you're comparing every pair. 23 people make 253 pairs, and the chances add up fast.
+
+    This is one of 90 animated lessons in Chance, our probability and statistics app. You watch it happen, then play with the numbers yourself.
+
+    Launching soon on Play Store. Follow so you don't miss it.
+
+    #Probability #Statistics #Maths #LearnWithAnimation #Divyrs #MadeInIndia
+  image: campaign/images/2026-10-26/divyrs-birthday.png
+  card:
+    brand: chance
+    kicker: Probability, animated
+    headline: 23 people. Better than 50% that two share a birthday.
+    sub: |-
+      Most people guess you'd need 183.
+      23 people already make 253 pairs.
+    footer: Chance app · coming soon
+- id: 2026-10-26-divyrs-ig-2
+  account: divyrs-instagram
+  publish_at: 2026-10-28 19:30
+  status: approved
+  text: |
+    Binary search finds one item in a sorted list of 1,000,000 in at most 20 steps.
+
+    Each step looks at the middle and throws away half the list. 1,000,000 → 500,000 → 250,000 → … → 1. That's 20 halvings.
+
+    It's the first idea that makes "O(log n)" click, and you can watch it animate step by step, forwards and backwards, in our free DSA lessons.
+
+    201 visual lessons: DSA, system design, databases, cloud.
+    Link in bio → learndatastructureandalgorithms.divyrs.com
+
+    #DSA #BinarySearch #CodingInterview #LearnToCode #Divyrs
+  image: campaign/images/2026-10-26/divyrs-binary-search.png
+  card:
+    kicker: DSA in one picture
+    headline: 1,000,000 items. 20 steps.
+    sub: |-
+      Binary search halves the list every step.
+      Watch it animate, free.
+    footer: learndatastructureandalgorithms.divyrs.com
+- id: 2026-10-26-divyrs-ig-3
+  account: divyrs-instagram
+  publish_at: 2026-10-30 19:30
+  status: approved
+  text: |
+    Running a business without a proper website? We build them.
+
+    Divyrs builds:
+    • Landing pages that turn visitors into enquiries
+    • Booking and order pages
+    • AI assistants that answer customer questions
+    • Calculators and tools your customers keep coming back to
+
+    We've shipped interview-prep platforms, PDF tools, finance calculators and animated learning apps. Yours could be next.
+
+    DM us "BUILD" and tell us what your business does.
+
+    #SmallBusinessIndia #WebsiteDesign #AITools #Divyrs #MadeInIndia
+  image: campaign/images/2026-10-26/divyrs-studio.png
+  card:
+    kicker: Divyrs studio
+    headline: Your business needs a website that brings enquiries.
+    sub: |-
+      Landing pages · booking pages · AI assistants.
+      DM us "BUILD".
+    footer: divyrs.com
+- id: 2026-10-26-divyrs-ig-4
+  account: divyrs-instagram
+  publish_at: 2026-11-01 12:30
+  status: approved
+  text: |
+    Three doors. A car behind one. You pick a door, the host opens another to show a goat, and asks: switch?
+
+    Switch. You win 2 times out of 3.
+
+    Your first pick is right only 1 time in 3. The host always shows a goat, so the remaining 2 out of 3 moves to the other door.
+
+    Still don't believe it? Neither did a lot of mathematicians. In Chance you can play it 1,000 times and watch the win rate settle at 66.7%.
+
+    App launching soon. Follow for the release.
+
+    #MontyHall #Probability #MathPuzzle #Statistics #Divyrs
+  image: campaign/images/2026-10-26/divyrs-monty-hall.png
+  card:
+    brand: chance
+    kicker: The Monty Hall problem
+    headline: Switch doors. You win 2 out of 3 times.
+    sub: Play it 1,000 times and watch it settle at 66.7%.
+    footer: Chance app · coming soon
+- id: 2026-10-26-divyrs-fb-1
+  account: divyrs-facebook
+  publish_at: 2026-10-26 20:00
+  status: approved
+  text: |
+    Put 23 people in a room. The chance that two share a birthday is better than 50%.
+
+    It sounds wrong, but 23 people make 253 different pairs, and each pair is a chance for a match.
+
+    We're building Chance, an app that teaches probability and statistics with 90 short animated lessons. Like this page to hear when it launches.
+  image: campaign/images/2026-10-26/divyrs-birthday.png
+- id: 2026-10-26-divyrs-fb-2
+  account: divyrs-facebook
+  publish_at: 2026-10-29 20:00
+  status: approved
+  text: |
+    Need a website or a simple AI tool for your business?
+
+    Divyrs builds landing pages, booking pages, customer-question chat assistants and custom calculators, usually within days.
+
+    Message this page with what your business does and we'll suggest what to build first.
+    https://divyrs.com
+  image: campaign/images/2026-10-26/divyrs-studio.png
+- id: 2026-10-26-divyrs-fb-3
+  account: divyrs-facebook
+  publish_at: 2026-10-31 13:00
+  status: approved
+  text: |
+    How does binary search find one name among a million in just 20 steps? It throws away half the list every time.
+
+    Watch it animate, step by step, in our free DSA lessons:
+    https://learndatastructureandalgorithms.divyrs.com/
+  image: campaign/images/2026-10-26/divyrs-binary-search.png
+- id: 2026-10-26-divyrs-li-1
+  account: divyrs-linkedin
+  publish_at: 2026-10-27 08:30
+  status: approved
+  text: |
+    What we've shipped at Divyrs this year:
+
+    → An animated course with 201 visual lessons on DSA, system design, databases and cloud
+    → AI Interview Stack: interview prep for Claude, Copilot, Cursor and other AI tools
+    → MyPDFUpdate: PDF tools that run in your browser, so files aren't uploaded
+    → LiveLifeTricks: income tax, EMI, salary and SIP calculators for India
+    → CogniBrainPro: a 15-minute-a-day brain-training program
+    → Chance: a probability and statistics app with 90 animated lessons (launching soon)
+
+    All built by a small team. If you need a website or AI tool built for your business, we take on a few projects at a time.
+
+    https://divyrs.com
+
+    #BuildInPublic #IndieMaker #MadeInIndia
+- id: 2026-10-26-divyrs-li-2
+  account: divyrs-linkedin
+  publish_at: 2026-10-29 12:30
+  status: approved
+  text: |
+    Why we teach algorithms with animation instead of slides:
+
+    Most people don't struggle with the code for quicksort. They struggle to see what the array looks like halfway through.
+
+    So every lesson in our DSA course plays like a video you can pause, step and rewind. Then you try it yourself, then a quick quiz checks you got it.
+
+    Free lessons here: https://learndatastructureandalgorithms.divyrs.com/
+
+    #DSA #Algorithms #EdTech #LearnToCode
+- id: 2026-10-26-divyrs-li-3
+  account: divyrs-linkedin
+  publish_at: 2026-10-30 17:30
+  status: approved
+  text: |
+    Small businesses ask us the same question every week: "Do I need an app, or just a website?"
+
+    Usually a website. A fast landing page with clear pricing, a WhatsApp or enquiry button, and one useful tool (a quote calculator, a booking form) brings more enquiries than an app nobody downloads.
+
+    That's the kind of thing Divyrs builds. If you want a second opinion on yours, send us a message.
+
+    https://divyrs.com
+
+    #SmallBusiness #WebDevelopment #AITools
+- id: 2026-10-26-llt-ig-1
+  account: livelifetricks-instagram
+  publish_at: 2026-10-26 21:00
+  status: approved
+  text: |
+    New tax regime or old? There is no single right answer. It depends on how much you claim in deductions.
+
+    If you claim a lot (80C, 80D, home loan interest, HRA), the old regime can still win. If you claim little, the new regime is usually cheaper.
+
+    Our free calculator works out both for FY 2026-27 and FY 2025-26, and tells you how much more you'd need to claim for the old regime to match.
+
+    Link in bio → livelifetricks.com
+
+    #IncomeTax #TaxSaving #NewTaxRegime #PersonalFinance #LiveLifeTricks
+  image: campaign/images/2026-10-26/llt-regime.png
+  card:
+    kicker: Tax tip
+    headline: New regime or old? It depends on your deductions.
+    sub: |-
+      See both side by side, free.
+      FY 2026-27 and FY 2025-26.
+    footer: livelifetricks.com/income-tax-calculator
+- id: 2026-10-26-llt-ig-2
+  account: livelifetricks-instagram
+  publish_at: 2026-10-28 21:00
+  status: approved
+  text: |
+    Paying one extra EMI a year on a home loan can take years off a 20-year loan.
+
+    The extra payment goes straight to the principal, so every future month charges interest on a smaller amount.
+
+    Try it with your own loan: our EMI calculator shows the year-by-year schedule and how much an extra payment saves.
+
+    Link in bio → livelifetricks.com
+
+    #HomeLoan #EMI #MoneyTips #PersonalFinanceIndia #LiveLifeTricks
+  image: campaign/images/2026-10-26/llt-emi.png
+  card:
+    kicker: Loan tip
+    headline: One extra EMI a year can cut years off your home loan.
+    sub: See exactly how much you'd save.
+    footer: livelifetricks.com/emi-calculator
+- id: 2026-10-26-llt-ig-3
+  account: livelifetricks-instagram
+  publish_at: 2026-10-30 21:00
+  status: approved
+  text: |
+    Making a marriage biodata? Do it in 5 minutes.
+
+    • 45 designs, 15 of them free
+    • Icons for every faith
+    • Fill in the details, download, share on WhatsApp
+
+    Premium designs are just ₹20.
+
+    Link in bio → livelifetricks.com/biodata
+
+    #MarriageBiodata #Biodata #WeddingIndia #ShaadiTaiyari #LiveLifeTricks
+  image: campaign/images/2026-10-26/llt-biodata.png
+  card:
+    kicker: Shaadi taiyari
+    headline: Marriage biodata in 5 minutes.
+    sub: 45 designs · 15 free · premium at ₹20
+    footer: livelifetricks.com/biodata
+- id: 2026-10-26-llt-ig-4
+  account: livelifetricks-instagram
+  publish_at: 2026-11-01 19:30
+  status: approved
+  text: |
+    Your CTC is not your salary.
+
+    Before money reaches your account, it loses PF, gratuity, professional tax and income tax. On some offers, monthly in-hand is far lower than CTC ÷ 12.
+
+    Comparing two job offers? Put both through our in-hand salary calculator first.
+
+    Link in bio → livelifetricks.com
+
+    #Salary #CTC #JobOffer #PersonalFinance #LiveLifeTricks
+  image: campaign/images/2026-10-26/llt-ctc.png
+  card:
+    kicker: Before you accept that offer
+    headline: CTC ÷ 12 is not your in-hand salary.
+    sub: PF, gratuity, professional tax and income tax come out first.
+    footer: livelifetricks.com/salary-calculator
+- id: 2026-10-26-llt-fb-1
+  account: livelifetricks-facebook
+  publish_at: 2026-10-27 20:00
+  status: approved
+  text: |
+    New tax regime or old: which saves you more this year?
+
+    It depends on your deductions. Our free calculator compares both for FY 2026-27 and tells you the break-even.
+    https://livelifetricks.com/income-tax-calculator/
+  image: campaign/images/2026-10-26/llt-regime.png
+- id: 2026-10-26-llt-fb-2
+  account: livelifetricks-facebook
+  publish_at: 2026-10-29 20:00
+  status: approved
+  text: |
+    Wedding in the family? Make the marriage biodata in 5 minutes: 45 designs, 15 free, icons for every faith, ready to share on WhatsApp.
+    https://livelifetricks.com/biodata/
+  image: campaign/images/2026-10-26/llt-biodata.png
+- id: 2026-10-26-llt-fb-3
+  account: livelifetricks-facebook
+  publish_at: 2026-10-31 20:00
+  status: approved
+  text: |
+    One extra EMI a year can take years off a 20-year home loan. See how much it saves on your loan:
+    https://livelifetricks.com/emi-calculator/
+  image: campaign/images/2026-10-26/llt-emi.png
+- id: 2026-10-26-ais-li-1
+  account: aiinterviewstack-linkedin
+  publish_at: 2026-10-26 12:30
+  status: approved
+  text: |
+    Interview question we're seeing more often:
+
+    "What should a CLAUDE.md file contain for a multi-service monorepo, and how is it different from a README?"
+
+    A strong answer covers:
+    → A README is for humans arriving at the project. CLAUDE.md is standing instructions for an AI agent working inside it.
+    → It holds how to build, test and lint each service, the conventions to follow, and what not to touch.
+    → In a monorepo, a short root file plus per-service files keeps each one focused.
+
+    Practise more AI-tool interview questions (Claude, Copilot, Cursor, Gemini). Easy questions are free:
+    https://aiinterviewstack.com
+
+    #InterviewPrep #ClaudeCode #AIEngineering #SoftwareEngineering
+- id: 2026-10-26-ais-li-2
+  account: aiinterviewstack-linkedin
+  publish_at: 2026-10-28 08:30
+  status: approved
+  text: |
+    "When would you delegate work to a subagent instead of doing it in the main session?"
+
+    Interviewers asking about AI coding tools want to know you understand context as a limited resource.
+
+    Good answer: hand off self-contained work whose details you don't need afterwards, like a broad search across many files or an independent research task. You get back a summary, and your main session stays focused.
+
+    Bad answer: "Always use subagents, they're faster."
+
+    More questions like this, from Easy to Hard:
+    https://aiinterviewstack.com
+
+    #InterviewPrep #AIAgents #GenAI #Careers
+- id: 2026-10-26-ais-li-3
+  account: aiinterviewstack-linkedin
+  publish_at: 2026-10-30 12:30
+  status: approved
+  text: |
+    System-design question for AI-era interviews:
+
+    "Design a CI gate where an AI agent auto-fixes failing tests, but a human must approve before anything reaches main."
+
+    Points that separate good answers:
+    → The agent works on its own branch with limited permissions, never on main
+    → It must reproduce the failure first, then show the same check passing
+    → Branch protection makes human review mandatory, not optional
+    → Every agent change is attributed and easy to revert
+
+    Full worked answer on AI Interview Stack:
+    https://aiinterviewstack.com
+
+    #SystemDesign #DevOps #AIEngineering #InterviewPrep
+- id: 2026-10-26-pdf-li-1
+  account: mypdfupdate-linkedin
+  publish_at: 2026-10-27 12:30
+  status: approved
+  text: |
+    Most free PDF websites upload your file to their server. For salary slips, contracts or ID documents, that's a risk.
+
+    MyPDFUpdate's free tools (merge, split, organize, compress, watermark and more) run in your browser. The file stays on your device.
+
+    https://mypdfupdate.com
+
+    #Privacy #PDF #DataProtection #Productivity
+- id: 2026-10-26-pdf-li-2
+  account: mypdfupdate-linkedin
+  publish_at: 2026-10-29 08:30
+  status: approved
+  text: |
+    Got a scanned PDF you can't search or copy text from?
+
+    Run it through OCR first. It recognises the text on each page so you can search it, copy it, or convert it to Word or Excel.
+
+    MyPDFUpdate has OCR built in, plus PDF to Word, Excel and PowerPoint:
+    https://mypdfupdate.com
+
+    #OfficeTips #PDF #Productivity #OCR
+- id: 2026-10-26-pdf-li-3
+  account: mypdfupdate-linkedin
+  publish_at: 2026-10-30 08:30
+  status: approved
+  text: |
+    A 2-minute workflow for HR teams sending offer letters:
+
+    1. Merge the offer letter, policy and joining form into one PDF
+    2. Add your company watermark
+    3. Sign it
+    4. Password-protect it before emailing
+
+    All four steps in one place: https://mypdfupdate.com
+
+    #HR #Recruiting #PDF #OfficeTips
+- id: 2026-10-26-cog-li-1
+  account: cognibrainpro-linkedin
+  publish_at: 2026-10-26 17:30
+  status: approved
+  text: |
+    Quick puzzle. Answer in 10 seconds:
+
+    A bat and a ball cost ₹110 together. The bat costs ₹100 more than the ball. How much is the ball?
+
+    Most people say ₹10. It's ₹5. (Bat ₹105 + ball ₹5 = ₹110.)
+
+    The fast answer feels right and isn't. Training yourself to pause and check is a skill, and it improves with practice.
+
+    Try the free Brain Skills Challenge: https://cognibrainpro.com
+
+    #CriticalThinking #Puzzles #Aptitude #BrainTraining
+- id: 2026-10-26-cog-li-2
+  account: cognibrainpro-linkedin
+  publish_at: 2026-10-28 17:30
+  status: approved
+  text: |
+    Mental math trick: multiplying a two-digit number by 11.
+
+    Add the two digits and put the sum in the middle.
+    36 × 11 → 3 (3+6) 6 → 396
+    52 × 11 → 5 (5+2) 2 → 572
+
+    If the sum is 10 or more, carry the 1: 87 × 11 → 8 (15) 7 → 957.
+
+    Tricks like this are part of CogniSprint's 15-minute daily routine:
+    https://cognibrainpro.com
+
+    #MentalMath #Aptitude #Learning #BrainTraining
+- id: 2026-10-26-cog-li-3
+  account: cognibrainpro-linkedin
+  publish_at: 2026-10-30 12:30
+  status: approved
+  text: |
+    15 minutes a day. Mental math, memory, focus, logic, observation and critical thinking.
+
+    That's CogniSprint: a 365-day brain-training program built as a daily habit, not a cram session.
+
+    Not sure where you stand? Take the free Brain Skills Challenge and see your strongest area:
+    https://cognibrainpro.com
+
+    #BrainTraining #Focus #Productivity #Learning

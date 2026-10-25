@@ -1,0 +1,46 @@
+name: Publish due posts
+
+# Scheduled workflows only run on the repository's default branch.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Show what would post without posting"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: campaign-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install httpx pyyaml pydantic-settings
+      - name: Publish
+        env:
+          SECRETS_JSON: ${{ toJSON(secrets) }}
+        run: python -m campaign.publish ${{ inputs.dry_run && '--dry-run' || '' }}
+      - name: Save results to the queue
+        run: |
+          if git diff --quiet -- campaign/queue; then exit 0; fi
+          git config user.name "promotion-manager[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add campaign/queue
+          git commit -m "Publish log $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

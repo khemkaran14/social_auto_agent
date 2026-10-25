@@ -23,6 +23,10 @@ class Settings(BaseSettings):
     linkedin_client_id: str = ""
     linkedin_client_secret: str = ""
     linkedin_redirect_uri: str = "http://localhost:8000/auth/linkedin/callback"
+    # LinkedIn retires each monthly API version about a year after release.
+    linkedin_api_version: str = "202609"
+
+    meta_graph_version: str = "v23.0"
 
     twitter_client_id: str = ""
     twitter_client_secret: str = ""

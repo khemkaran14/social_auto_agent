@@ -1,0 +1,24 @@
+# How the promotion manager runs. Edit these, commit, done.
+
+# review: the weekly Claude run opens a pull request with next week's posts.
+#         Nothing posts until you merge it. Merging = approving.
+# auto:   the weekly Claude run commits posts straight to the main branch.
+mode: review
+
+timezone: Asia/Kolkata
+
+# Posts per account per week (Claude may do fewer if it has nothing good to say).
+posts_per_week:
+  instagram: 4
+  facebook: 3
+  linkedin: 3
+
+# Best posting slots, local time. Claude picks from these.
+slots:
+  instagram: ["12:30", "19:30", "21:00"]
+  facebook: ["13:00", "20:00"]
+  linkedin: ["08:30", "12:30", "17:30"]
+
+# A post that could not go out within this many hours of its slot is marked "missed".
+max_late_hours: 24
+max_attempts: 3

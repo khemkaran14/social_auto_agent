@@ -32,7 +32,6 @@ USERINFO_URL = "https://api.linkedin.com/v2/userinfo"
 POSTS_URL = "https://api.linkedin.com/rest/posts"
 IMAGES_URL = "https://api.linkedin.com/rest/images"
 
-API_VERSION = "202405"
 SCOPES = "openid profile w_member_social"
 
 
@@ -41,7 +40,7 @@ def _rest_headers(access_token: str) -> dict:
         "Authorization": f"Bearer {access_token}",
         "Content-Type": "application/json",
         "X-Restli-Protocol-Version": "2.0.0",
-        "LinkedIn-Version": API_VERSION,
+        "LinkedIn-Version": get_settings().linkedin_api_version,
     }
 
 
@@ -145,7 +144,12 @@ class LinkedInPlatform(SocialPlatform):
     def post_content(
         self, access_token: str, author_platform_user_id: str, text: str, image_url: str | None = None
     ) -> PostResult:
-        author_urn = f"urn:li:person:{author_platform_user_id}"
+        # A full URN (e.g. "urn:li:organization:123") posts as a company page;
+        # a bare member id posts as that person.
+        if author_platform_user_id.startswith("urn:li:"):
+            author_urn = author_platform_user_id
+        else:
+            author_urn = f"urn:li:person:{author_platform_user_id}"
         body = {
             "author": author_urn,
             "commentary": text[: self.max_post_length],
