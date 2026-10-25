@@ -21,6 +21,7 @@ posts:
     headline: We build learning tools and websites.
     sub: Animated lessons · apps · AI tools for small businesses.
     footer: divyrs.com
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_DIVYRS, FB_PAGE_ID_DIVYRS'
 - id: test-divyrs-instagram
   account: divyrs-instagram
   publish_at: 2026-10-26 01:15
@@ -40,3 +41,4 @@ posts:
     #Divyrs #LearnToCode #MadeInIndia
   image: campaign/images/test/divyrs-hello.png
   card: *id001
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_DIVYRS, IG_USER_ID_DIVYRS'
