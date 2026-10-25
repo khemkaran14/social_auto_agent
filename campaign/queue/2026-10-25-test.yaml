@@ -1,0 +1,42 @@
+week: test
+posts:
+- id: test-divyrs-facebook
+  account: divyrs-facebook
+  publish_at: 2026-10-26 01:15
+  status: approved
+  text: |
+    Hello from Divyrs 👋
+
+    We build learning tools and websites:
+    • An animated DSA, system design, databases and cloud course (201 visual lessons)
+    • Chance, a probability and statistics app with 90 animated lessons (coming soon)
+    • Websites and AI tools for small businesses
+
+    New posts every week. Follow along!
+
+    https://divyrs.com
+  image: campaign/images/test/divyrs-hello.png
+  card: &id001
+    kicker: Hello from Divyrs
+    headline: We build learning tools and websites.
+    sub: Animated lessons · apps · AI tools for small businesses.
+    footer: divyrs.com
+- id: test-divyrs-instagram
+  account: divyrs-instagram
+  publish_at: 2026-10-26 01:15
+  status: approved
+  text: |
+    Hello from Divyrs 👋
+
+    We build learning tools and websites:
+    • An animated DSA, system design, databases and cloud course (201 visual lessons)
+    • Chance, a probability and statistics app with 90 animated lessons (coming soon)
+    • Websites and AI tools for small businesses
+
+    New posts every week. Follow along!
+
+    Link in bio → divyrs.com
+
+    #Divyrs #LearnToCode #MadeInIndia
+  image: campaign/images/test/divyrs-hello.png
+  card: *id001
