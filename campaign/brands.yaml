@@ -1,0 +1,148 @@
+# Who we post as, and what each product is. The weekly Claude run reads this
+# before writing posts, so keep the facts here correct.
+#
+# token_secret / target_secret are names of GitHub secrets (Settings > Secrets
+# and variables > Actions). See campaign/SETUP.md for how to get each value.
+
+accounts:
+  - id: divyrs-instagram
+    brand: divyrs
+    platform: instagram
+    token_secret: META_PAGE_TOKEN_DIVYRS
+    target_secret: IG_USER_ID_DIVYRS
+  - id: divyrs-facebook
+    brand: divyrs
+    platform: facebook
+    token_secret: META_PAGE_TOKEN_DIVYRS
+    target_secret: FB_PAGE_ID_DIVYRS
+  - id: divyrs-linkedin
+    brand: divyrs
+    platform: linkedin
+    token_secret: LINKEDIN_ACCESS_TOKEN
+    target_secret: LINKEDIN_ORG_ID_DIVYRS
+    target_format: "urn:li:organization:{id}"
+  - id: livelifetricks-instagram
+    brand: livelifetricks
+    platform: instagram
+    token_secret: META_PAGE_TOKEN_LIVELIFETRICKS
+    target_secret: IG_USER_ID_LIVELIFETRICKS
+  - id: livelifetricks-facebook
+    brand: livelifetricks
+    platform: facebook
+    token_secret: META_PAGE_TOKEN_LIVELIFETRICKS
+    target_secret: FB_PAGE_ID_LIVELIFETRICKS
+  - id: aiinterviewstack-linkedin
+    brand: aiinterviewstack
+    platform: linkedin
+    token_secret: LINKEDIN_ACCESS_TOKEN
+    target_secret: LINKEDIN_ORG_ID_AIINTERVIEWSTACK
+    target_format: "urn:li:organization:{id}"
+  - id: mypdfupdate-linkedin
+    brand: mypdfupdate
+    platform: linkedin
+    token_secret: LINKEDIN_ACCESS_TOKEN
+    target_secret: LINKEDIN_ORG_ID_MYPDFUPDATE
+    target_format: "urn:li:organization:{id}"
+  - id: cognibrainpro-linkedin
+    brand: cognibrainpro
+    platform: linkedin
+    token_secret: LINKEDIN_ACCESS_TOKEN
+    target_secret: LINKEDIN_ORG_ID_COGNIBRAINPRO
+    target_format: "urn:li:organization:{id}"
+
+brands:
+  divyrs:
+    name: Divyrs
+    url: https://divyrs.com
+    repo: khemkaran14/divyrs
+    what: >
+      The studio behind a family of learning tools: an animated DSA, system
+      design, databases and cloud course (learndatastructureandalgorithms.divyrs.com,
+      201 visual lessons), Mantra Shakti (mantrashakti.divyrs.com), and the
+      Chance app (animated probability and statistics, 90 lessons). Also builds
+      websites and AI tools for small businesses and creators.
+    audience: Indian students, developers, and small-business owners who need a website or AI tool
+    tone: friendly, proud of craft, shows real work, no hype
+    goals: ["learners try a free lesson", "businesses enquire about a build"]
+    links:
+      dsa: https://learndatastructureandalgorithms.divyrs.com/
+      mantra: https://mantrashakti.divyrs.com/
+      studio: https://divyrs.com
+    hashtags: ["#Divyrs", "#LearnToCode", "#DSA", "#BuildInPublic", "#MadeInIndia"]
+    colors: { bg: "#10243f", fg: "#ffffff", accent: "#ffb547" }
+
+  livelifetricks:
+    name: LiveLifeTricks
+    url: https://livelifetricks.com
+    repo: khemkaran14/llt_new
+    what: >
+      Free money calculators and simple guides for India: income tax (new vs
+      old regime, FY 2026-27 and FY 2025-26), EMI, in-hand salary, SIP, HRA,
+      PPF, FD, RD, GST, prepay-or-invest, rent receipt generator, tax calendar,
+      and a marriage biodata maker (45 designs, 15 free, premium at ₹20). Sister
+      sites: signorastyles.livelifetricks.com (style) and reels.livelifetricks.com.
+    audience: salaried Indians 22-45, families, people planning a wedding
+    tone: helpful, clear, Hinglish-friendly where natural, one money tip per post
+    goals: ["visits to a calculator", "biodata purchases"]
+    links:
+      tax: https://livelifetricks.com/income-tax-calculator/
+      emi: https://livelifetricks.com/emi-calculator/
+      salary: https://livelifetricks.com/salary-calculator/
+      sip: https://livelifetricks.com/sip-calculator/
+      biodata: https://livelifetricks.com/biodata/
+      style: https://signorastyles.livelifetricks.com
+    hashtags: ["#PersonalFinance", "#IncomeTax", "#MoneyTips", "#India", "#LiveLifeTricks"]
+    colors: { bg: "#0f5132", fg: "#ffffff", accent: "#ffd166" }
+
+  aiinterviewstack:
+    name: AI Interview Stack
+    url: https://aiinterviewstack.com
+    repo: khemkaran14/AISmart
+    what: >
+      Interview-prep questions and answers for AI tools: Claude, GitHub
+      Copilot, Cursor, Google Antigravity, OpenAI, Gemini and more. Every Easy
+      question is free; Pro and Premium unlock Medium and Hard answers.
+    audience: software engineers and freshers interviewing for roles that expect AI-tool skills
+    tone: sharp, practical, one real interview question per post
+    goals: ["free signups", "Pro upgrades"]
+    hashtags: ["#InterviewPrep", "#AI", "#SoftwareEngineering", "#GenAI", "#Careers"]
+    colors: { bg: "#1b1340", fg: "#ffffff", accent: "#7cf5c4" }
+
+  mypdfupdate:
+    name: MyPDFUpdate
+    url: https://mypdfupdate.com
+    repo: khemkaran14/pdfdocroom
+    what: >
+      PDF tools: merge, split, organize, convert, compress, watermark, sign,
+      protect and repair PDFs, OCR for scanned pages, Word to PDF, PDF to
+      Word/Excel/PowerPoint. Free tools run in the browser, so files are not
+      uploaded. Pro and Lifetime plans unlock advanced tools.
+    audience: office workers, students, HR and finance teams
+    tone: practical, privacy-first, one workflow tip per post
+    goals: ["tool visits", "Pro and Lifetime purchases"]
+    hashtags: ["#PDF", "#Productivity", "#OfficeTips", "#Privacy"]
+    colors: { bg: "#7a1d1d", fg: "#ffffff", accent: "#ffd2a8" }
+
+  cognibrainpro:
+    name: CogniBrainPro
+    url: https://cognibrainpro.com
+    repo: khemkaran14/cogniSprint
+    what: >
+      CogniSprint: a 365-day brain-training program with a 15-minute daily
+      routine for mental math, memory, focus, logical reasoning, observation
+      and critical thinking. Free interactive Brain Skills Challenge.
+    audience: students preparing for aptitude tests, professionals, parents
+    tone: encouraging, puzzle-first, invite people to try the free challenge
+    goals: ["Brain Skills Challenge starts", "program purchases"]
+    hashtags: ["#BrainTraining", "#Aptitude", "#Focus", "#Learning"]
+    colors: { bg: "#3b0a57", fg: "#ffffff", accent: "#ff8fd8" }
+
+  chance:
+    name: Chance
+    what: >
+      Android/iOS app teaching probability and statistics with 90 short animated
+      lessons (watch, understand, play, check). Chapters 1-3 free. Not yet on
+      the stores: do not post a download link until brands.yaml has one.
+    audience: class 11-12 and college students, data-science beginners
+    tone: curious, one surprising probability fact per post
+    colors: { bg: "#0f5c63", fg: "#ffffff", accent: "#ffcf5c" }
