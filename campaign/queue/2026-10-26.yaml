@@ -303,6 +303,7 @@ posts:
     https://aiinterviewstack.com
 
     #InterviewPrep #ClaudeCode #AIEngineering #SoftwareEngineering
+  last_error: 'waiting for secret(s): LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_ID_AIINTERVIEWSTACK'
 - id: 2026-10-26-ais-li-2
   account: aiinterviewstack-linkedin
   publish_at: 2026-10-28 08:30
