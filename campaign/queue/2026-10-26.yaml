@@ -23,6 +23,7 @@ posts:
       Most people guess you'd need 183.
       23 people already make 253 pairs.
     footer: Chance app · coming soon
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_DIVYRS, IG_USER_ID_DIVYRS'
 - id: 2026-10-26-divyrs-ig-2
   account: divyrs-instagram
   publish_at: 2026-10-28 19:30
@@ -106,6 +107,7 @@ posts:
 
     We're building Chance, an app that teaches probability and statistics with 90 short animated lessons. Like this page to hear when it launches.
   image: campaign/images/2026-10-26/divyrs-birthday.png
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_DIVYRS, FB_PAGE_ID_DIVYRS'
 - id: 2026-10-26-divyrs-fb-2
   account: divyrs-facebook
   publish_at: 2026-10-29 20:00
@@ -197,6 +199,7 @@ posts:
       See both side by side, free.
       FY 2026-27 and FY 2025-26.
     footer: livelifetricks.com/income-tax-calculator
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_LIVELIFETRICKS, IG_USER_ID_LIVELIFETRICKS'
 - id: 2026-10-26-llt-ig-2
   account: livelifetricks-instagram
   publish_at: 2026-10-28 21:00
@@ -396,6 +399,7 @@ posts:
     Try the free Brain Skills Challenge: https://cognibrainpro.com
 
     #CriticalThinking #Puzzles #Aptitude #BrainTraining
+  last_error: 'waiting for secret(s): LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_ID_COGNIBRAINPRO'
 - id: 2026-10-26-cog-li-2
   account: cognibrainpro-linkedin
   publish_at: 2026-10-28 17:30
