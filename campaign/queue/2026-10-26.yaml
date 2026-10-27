@@ -3,7 +3,7 @@ posts:
 - id: 2026-10-26-divyrs-ig-1
   account: divyrs-instagram
   publish_at: 2026-10-26 19:30
-  status: approved
+  status: missed
   text: |
     In a room of just 23 people, there's a better than 50% chance two of them share a birthday.
 
@@ -99,7 +99,7 @@ posts:
 - id: 2026-10-26-divyrs-fb-1
   account: divyrs-facebook
   publish_at: 2026-10-26 20:00
-  status: approved
+  status: missed
   text: |
     Put 23 people in a room. The chance that two share a birthday is better than 50%.
 
@@ -181,7 +181,7 @@ posts:
 - id: 2026-10-26-llt-ig-1
   account: livelifetricks-instagram
   publish_at: 2026-10-26 21:00
-  status: approved
+  status: missed
   text: |
     New tax regime or old? There is no single right answer. It depends on how much you claim in deductions.
 
@@ -273,6 +273,7 @@ posts:
     It depends on your deductions. Our free calculator compares both for FY 2026-27 and tells you the break-even.
     https://livelifetricks.com/income-tax-calculator/
   image: campaign/images/2026-10-26/llt-regime.png
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_LIVELIFETRICKS, FB_PAGE_ID_LIVELIFETRICKS'
 - id: 2026-10-26-llt-fb-2
   account: livelifetricks-facebook
   publish_at: 2026-10-29 20:00
