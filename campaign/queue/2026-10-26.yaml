@@ -149,6 +149,7 @@ posts:
     https://divyrs.com
 
     #BuildInPublic #IndieMaker #MadeInIndia
+  last_error: 'waiting for secret(s): LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_ID_DIVYRS'
 - id: 2026-10-26-divyrs-li-2
   account: divyrs-linkedin
   publish_at: 2026-10-29 12:30
@@ -291,7 +292,7 @@ posts:
 - id: 2026-10-26-ais-li-1
   account: aiinterviewstack-linkedin
   publish_at: 2026-10-26 12:30
-  status: approved
+  status: missed
   text: |
     Interview question we're seeing more often:
 
@@ -355,6 +356,7 @@ posts:
     https://mypdfupdate.com
 
     #Privacy #PDF #DataProtection #Productivity
+  last_error: 'waiting for secret(s): LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_ID_MYPDFUPDATE'
 - id: 2026-10-26-pdf-li-2
   account: mypdfupdate-linkedin
   publish_at: 2026-10-29 08:30
