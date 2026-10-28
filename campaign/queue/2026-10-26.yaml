@@ -222,6 +222,7 @@ posts:
     headline: One extra EMI a year can cut years off your home loan.
     sub: See exactly how much you'd save.
     footer: livelifetricks.com/emi-calculator
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_LIVELIFETRICKS, IG_USER_ID_LIVELIFETRICKS'
 - id: 2026-10-26-llt-ig-3
   account: livelifetricks-instagram
   publish_at: 2026-10-30 21:00
