@@ -47,6 +47,7 @@ posts:
       Binary search halves the list every step.
       Watch it animate, free.
     footer: learndatastructureandalgorithms.divyrs.com
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_DIVYRS, IG_USER_ID_DIVYRS'
 - id: 2026-10-26-divyrs-ig-3
   account: divyrs-instagram
   publish_at: 2026-10-30 19:30
@@ -266,7 +267,7 @@ posts:
 - id: 2026-10-26-llt-fb-1
   account: livelifetricks-facebook
   publish_at: 2026-10-27 20:00
-  status: approved
+  status: missed
   text: |
     New tax regime or old: which saves you more this year?
 
@@ -421,6 +422,7 @@ posts:
     https://cognibrainpro.com
 
     #MentalMath #Aptitude #Learning #BrainTraining
+  last_error: 'waiting for secret(s): LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_ID_COGNIBRAINPRO'
 - id: 2026-10-26-cog-li-3
   account: cognibrainpro-linkedin
   publish_at: 2026-10-30 12:30
