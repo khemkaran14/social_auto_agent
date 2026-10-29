@@ -27,7 +27,7 @@ posts:
 - id: 2026-10-26-divyrs-ig-2
   account: divyrs-instagram
   publish_at: 2026-10-28 19:30
-  status: approved
+  status: missed
   text: |
     Binary search finds one item in a sorted list of 1,000,000 in at most 20 steps.
 
@@ -121,6 +121,7 @@ posts:
     Message this page with what your business does and we'll suggest what to build first.
     https://divyrs.com
   image: campaign/images/2026-10-26/divyrs-studio.png
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_DIVYRS, FB_PAGE_ID_DIVYRS'
 - id: 2026-10-26-divyrs-fb-3
   account: divyrs-facebook
   publish_at: 2026-10-31 13:00
@@ -206,7 +207,7 @@ posts:
 - id: 2026-10-26-llt-ig-2
   account: livelifetricks-instagram
   publish_at: 2026-10-28 21:00
-  status: approved
+  status: missed
   text: |
     Paying one extra EMI a year on a home loan can take years off a 20-year loan.
 
@@ -285,6 +286,7 @@ posts:
     Wedding in the family? Make the marriage biodata in 5 minutes: 45 designs, 15 free, icons for every faith, ready to share on WhatsApp.
     https://livelifetricks.com/biodata/
   image: campaign/images/2026-10-26/llt-biodata.png
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_LIVELIFETRICKS, FB_PAGE_ID_LIVELIFETRICKS'
 - id: 2026-10-26-llt-fb-3
   account: livelifetricks-facebook
   publish_at: 2026-10-31 20:00
@@ -411,7 +413,7 @@ posts:
 - id: 2026-10-26-cog-li-2
   account: cognibrainpro-linkedin
   publish_at: 2026-10-28 17:30
-  status: approved
+  status: missed
   text: |
     Mental math trick: multiplying a two-digit number by 11.
 
