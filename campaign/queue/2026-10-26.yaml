@@ -165,6 +165,7 @@ posts:
     Free lessons here: https://learndatastructureandalgorithms.divyrs.com/
 
     #DSA #Algorithms #EdTech #LearnToCode
+  last_error: 'waiting for secret(s): LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_ID_DIVYRS'
 - id: 2026-10-26-divyrs-li-3
   account: divyrs-linkedin
   publish_at: 2026-10-30 17:30
