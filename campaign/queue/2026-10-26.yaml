@@ -314,7 +314,7 @@ posts:
 - id: 2026-10-26-ais-li-2
   account: aiinterviewstack-linkedin
   publish_at: 2026-10-28 08:30
-  status: approved
+  status: missed
   text: |
     "When would you delegate work to a subagent instead of doing it in the main session?"
 
@@ -374,6 +374,7 @@ posts:
     https://mypdfupdate.com
 
     #OfficeTips #PDF #Productivity #OCR
+  last_error: 'waiting for secret(s): LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_ID_MYPDFUPDATE'
 - id: 2026-10-26-pdf-li-3
   account: mypdfupdate-linkedin
   publish_at: 2026-10-30 08:30
