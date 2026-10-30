@@ -113,7 +113,7 @@ posts:
 - id: 2026-10-26-divyrs-fb-2
   account: divyrs-facebook
   publish_at: 2026-10-29 20:00
-  status: approved
+  status: missed
   text: |
     Need a website or a simple AI tool for your business?
 
@@ -249,6 +249,7 @@ posts:
     headline: Marriage biodata in 5 minutes.
     sub: 45 designs · 15 free · premium at ₹20
     footer: livelifetricks.com/biodata
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_LIVELIFETRICKS, IG_USER_ID_LIVELIFETRICKS'
 - id: 2026-10-26-llt-ig-4
   account: livelifetricks-instagram
   publish_at: 2026-11-01 19:30
@@ -283,7 +284,7 @@ posts:
 - id: 2026-10-26-llt-fb-2
   account: livelifetricks-facebook
   publish_at: 2026-10-29 20:00
-  status: approved
+  status: missed
   text: |
     Wedding in the family? Make the marriage biodata in 5 minutes: 45 designs, 15 free, icons for every faith, ready to share on WhatsApp.
     https://livelifetricks.com/biodata/
