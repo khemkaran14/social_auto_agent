@@ -155,7 +155,7 @@ posts:
 - id: 2026-10-26-divyrs-li-2
   account: divyrs-linkedin
   publish_at: 2026-10-29 12:30
-  status: approved
+  status: missed
   text: |
     Why we teach algorithms with animation instead of slides:
 
@@ -351,6 +351,7 @@ posts:
     https://aiinterviewstack.com
 
     #SystemDesign #DevOps #AIEngineering #InterviewPrep
+  last_error: 'waiting for secret(s): LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_ID_AIINTERVIEWSTACK'
 - id: 2026-10-26-pdf-li-1
   account: mypdfupdate-linkedin
   publish_at: 2026-10-27 12:30
@@ -367,7 +368,7 @@ posts:
 - id: 2026-10-26-pdf-li-2
   account: mypdfupdate-linkedin
   publish_at: 2026-10-29 08:30
-  status: approved
+  status: missed
   text: |
     Got a scanned PDF you can't search or copy text from?
 
@@ -393,6 +394,7 @@ posts:
     All four steps in one place: https://mypdfupdate.com
 
     #HR #Recruiting #PDF #OfficeTips
+  last_error: 'waiting for secret(s): LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_ID_MYPDFUPDATE'
 - id: 2026-10-26-cog-li-1
   account: cognibrainpro-linkedin
   publish_at: 2026-10-26 17:30
@@ -441,3 +443,4 @@ posts:
     https://cognibrainpro.com
 
     #BrainTraining #Focus #Productivity #Learning
+  last_error: 'waiting for secret(s): LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_ID_COGNIBRAINPRO'
