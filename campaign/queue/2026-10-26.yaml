@@ -74,6 +74,7 @@ posts:
       Landing pages · booking pages · AI assistants.
       DM us "BUILD".
     footer: divyrs.com
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_DIVYRS, IG_USER_ID_DIVYRS'
 - id: 2026-10-26-divyrs-ig-4
   account: divyrs-instagram
   publish_at: 2026-11-01 12:30
@@ -181,6 +182,7 @@ posts:
     https://divyrs.com
 
     #SmallBusiness #WebDevelopment #AITools
+  last_error: 'waiting for secret(s): LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_ID_DIVYRS'
 - id: 2026-10-26-llt-ig-1
   account: livelifetricks-instagram
   publish_at: 2026-10-26 21:00
