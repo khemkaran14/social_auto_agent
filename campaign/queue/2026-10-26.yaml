@@ -51,7 +51,7 @@ posts:
 - id: 2026-10-26-divyrs-ig-3
   account: divyrs-instagram
   publish_at: 2026-10-30 19:30
-  status: approved
+  status: missed
   text: |
     Running a business without a proper website? We build them.
 
@@ -172,7 +172,7 @@ posts:
 - id: 2026-10-26-divyrs-li-3
   account: divyrs-linkedin
   publish_at: 2026-10-30 17:30
-  status: approved
+  status: missed
   text: |
     Small businesses ask us the same question every week: "Do I need an app, or just a website?"
 
@@ -299,6 +299,7 @@ posts:
     One extra EMI a year can take years off a 20-year home loan. See how much it saves on your loan:
     https://livelifetricks.com/emi-calculator/
   image: campaign/images/2026-10-26/llt-emi.png
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_LIVELIFETRICKS, FB_PAGE_ID_LIVELIFETRICKS'
 - id: 2026-10-26-ais-li-1
   account: aiinterviewstack-linkedin
   publish_at: 2026-10-26 12:30
