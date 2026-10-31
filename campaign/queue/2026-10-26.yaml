@@ -133,6 +133,7 @@ posts:
     Watch it animate, step by step, in our free DSA lessons:
     https://learndatastructureandalgorithms.divyrs.com/
   image: campaign/images/2026-10-26/divyrs-binary-search.png
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_DIVYRS, FB_PAGE_ID_DIVYRS'
 - id: 2026-10-26-divyrs-li-1
   account: divyrs-linkedin
   publish_at: 2026-10-27 08:30
@@ -338,7 +339,7 @@ posts:
 - id: 2026-10-26-ais-li-3
   account: aiinterviewstack-linkedin
   publish_at: 2026-10-30 12:30
-  status: approved
+  status: missed
   text: |
     System-design question for AI-era interviews:
 
@@ -385,7 +386,7 @@ posts:
 - id: 2026-10-26-pdf-li-3
   account: mypdfupdate-linkedin
   publish_at: 2026-10-30 08:30
-  status: approved
+  status: missed
   text: |
     A 2-minute workflow for HR teams sending offer letters:
 
@@ -436,7 +437,7 @@ posts:
 - id: 2026-10-26-cog-li-3
   account: cognibrainpro-linkedin
   publish_at: 2026-10-30 12:30
-  status: approved
+  status: missed
   text: |
     15 minutes a day. Mental math, memory, focus, logic, observation and critical thinking.
 
