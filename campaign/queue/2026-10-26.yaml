@@ -98,6 +98,7 @@ posts:
     headline: Switch doors. You win 2 out of 3 times.
     sub: Play it 1,000 times and watch it settle at 66.7%.
     footer: Chance app · coming soon
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_DIVYRS, IG_USER_ID_DIVYRS'
 - id: 2026-10-26-divyrs-fb-1
   account: divyrs-facebook
   publish_at: 2026-10-26 20:00
@@ -126,7 +127,7 @@ posts:
 - id: 2026-10-26-divyrs-fb-3
   account: divyrs-facebook
   publish_at: 2026-10-31 13:00
-  status: approved
+  status: missed
   text: |
     How does binary search find one name among a million in just 20 steps? It throws away half the list every time.
 
