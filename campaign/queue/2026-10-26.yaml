@@ -272,6 +272,7 @@ posts:
     headline: CTC ÷ 12 is not your in-hand salary.
     sub: PF, gratuity, professional tax and income tax come out first.
     footer: livelifetricks.com/salary-calculator
+  last_error: 'waiting for secret(s): META_PAGE_TOKEN_LIVELIFETRICKS, IG_USER_ID_LIVELIFETRICKS'
 - id: 2026-10-26-llt-fb-1
   account: livelifetricks-facebook
   publish_at: 2026-10-27 20:00
@@ -295,7 +296,7 @@ posts:
 - id: 2026-10-26-llt-fb-3
   account: livelifetricks-facebook
   publish_at: 2026-10-31 20:00
-  status: approved
+  status: missed
   text: |
     One extra EMI a year can take years off a 20-year home loan. See how much it saves on your loan:
     https://livelifetricks.com/emi-calculator/
