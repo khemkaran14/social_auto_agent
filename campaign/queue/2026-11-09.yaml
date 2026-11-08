@@ -1,9 +1,9 @@
-week: '2026-11-02'
-note: 'Re-run of the week of 2026-10-26: none of those posts went out (page secrets not added yet).'
+week: '2026-11-09'
+note: 'Third scheduling of the week-of-2026-10-26 posts: none have gone out yet (page secrets not added).'
 posts:
-- id: 2026-11-02-divyrs-ig-1
+- id: 2026-11-09-divyrs-ig-1
   account: divyrs-instagram
-  publish_at: 2026-11-02 19:30
+  publish_at: 2026-11-09 19:30
   status: approved
   text: |
     In a room of just 23 people, there's a better than 50% chance two of them share a birthday.
@@ -16,9 +16,9 @@ posts:
 
     #Probability #Statistics #Maths #LearnWithAnimation #Divyrs #MadeInIndia
   image: campaign/images/2026-10-26/divyrs-birthday.png
-- id: 2026-11-02-divyrs-ig-2
+- id: 2026-11-09-divyrs-ig-2
   account: divyrs-instagram
-  publish_at: 2026-11-04 19:30
+  publish_at: 2026-11-11 19:30
   status: approved
   text: |
     Binary search finds one item in a sorted list of 1,000,000 in at most 20 steps.
@@ -32,9 +32,9 @@ posts:
 
     #DSA #BinarySearch #CodingInterview #LearnToCode #Divyrs
   image: campaign/images/2026-10-26/divyrs-binary-search.png
-- id: 2026-11-02-divyrs-ig-3
+- id: 2026-11-09-divyrs-ig-3
   account: divyrs-instagram
-  publish_at: 2026-11-06 19:30
+  publish_at: 2026-11-13 19:30
   status: approved
   text: |
     Running a business without a proper website? We build them.
@@ -51,9 +51,9 @@ posts:
 
     #SmallBusinessIndia #WebsiteDesign #AITools #Divyrs #MadeInIndia
   image: campaign/images/2026-10-26/divyrs-studio.png
-- id: 2026-11-02-divyrs-ig-4
+- id: 2026-11-09-divyrs-ig-4
   account: divyrs-instagram
-  publish_at: 2026-11-08 12:30
+  publish_at: 2026-11-15 12:30
   status: approved
   text: |
     Three doors. A car behind one. You pick a door, the host opens another to show a goat, and asks: switch?
@@ -68,9 +68,9 @@ posts:
 
     #MontyHall #Probability #MathPuzzle #Statistics #Divyrs
   image: campaign/images/2026-10-26/divyrs-monty-hall.png
-- id: 2026-11-02-divyrs-fb-1
+- id: 2026-11-09-divyrs-fb-1
   account: divyrs-facebook
-  publish_at: 2026-11-02 20:00
+  publish_at: 2026-11-09 20:00
   status: approved
   text: |
     Put 23 people in a room. The chance that two share a birthday is better than 50%.
@@ -79,9 +79,9 @@ posts:
 
     We're building Chance, an app that teaches probability and statistics with 90 short animated lessons. Like this page to hear when it launches.
   image: campaign/images/2026-10-26/divyrs-birthday.png
-- id: 2026-11-02-divyrs-fb-2
+- id: 2026-11-09-divyrs-fb-2
   account: divyrs-facebook
-  publish_at: 2026-11-05 20:00
+  publish_at: 2026-11-12 20:00
   status: approved
   text: |
     Need a website or a simple AI tool for your business?
@@ -91,9 +91,9 @@ posts:
     Message this page with what your business does and we'll suggest what to build first.
     https://divyrs.com
   image: campaign/images/2026-10-26/divyrs-studio.png
-- id: 2026-11-02-divyrs-fb-3
+- id: 2026-11-09-divyrs-fb-3
   account: divyrs-facebook
-  publish_at: 2026-11-07 13:00
+  publish_at: 2026-11-14 13:00
   status: approved
   text: |
     How does binary search find one name among a million in just 20 steps? It throws away half the list every time.
@@ -101,9 +101,9 @@ posts:
     Watch it animate, step by step, in our free DSA lessons:
     https://learndatastructureandalgorithms.divyrs.com/
   image: campaign/images/2026-10-26/divyrs-binary-search.png
-- id: 2026-11-02-divyrs-li-1
+- id: 2026-11-09-divyrs-li-1
   account: divyrs-linkedin
-  publish_at: 2026-11-03 08:30
+  publish_at: 2026-11-10 08:30
   status: approved
   text: |
     What we've shipped at Divyrs this year:
@@ -120,9 +120,9 @@ posts:
     https://divyrs.com
 
     #BuildInPublic #IndieMaker #MadeInIndia
-- id: 2026-11-02-divyrs-li-2
+- id: 2026-11-09-divyrs-li-2
   account: divyrs-linkedin
-  publish_at: 2026-11-05 12:30
+  publish_at: 2026-11-12 12:30
   status: approved
   text: |
     Why we teach algorithms with animation instead of slides:
@@ -134,9 +134,9 @@ posts:
     Free lessons here: https://learndatastructureandalgorithms.divyrs.com/
 
     #DSA #Algorithms #EdTech #LearnToCode
-- id: 2026-11-02-divyrs-li-3
+- id: 2026-11-09-divyrs-li-3
   account: divyrs-linkedin
-  publish_at: 2026-11-06 17:30
+  publish_at: 2026-11-13 17:30
   status: approved
   text: |
     Small businesses ask us the same question every week: "Do I need an app, or just a website?"
@@ -148,9 +148,9 @@ posts:
     https://divyrs.com
 
     #SmallBusiness #WebDevelopment #AITools
-- id: 2026-11-02-llt-ig-1
+- id: 2026-11-09-llt-ig-1
   account: livelifetricks-instagram
-  publish_at: 2026-11-02 21:00
+  publish_at: 2026-11-09 21:00
   status: approved
   text: |
     New tax regime or old? There is no single right answer. It depends on how much you claim in deductions.
@@ -163,9 +163,9 @@ posts:
 
     #IncomeTax #TaxSaving #NewTaxRegime #PersonalFinance #LiveLifeTricks
   image: campaign/images/2026-10-26/llt-regime.png
-- id: 2026-11-02-llt-ig-2
+- id: 2026-11-09-llt-ig-2
   account: livelifetricks-instagram
-  publish_at: 2026-11-04 21:00
+  publish_at: 2026-11-11 21:00
   status: approved
   text: |
     Paying one extra EMI a year on a home loan can take years off a 20-year loan.
@@ -178,9 +178,9 @@ posts:
 
     #HomeLoan #EMI #MoneyTips #PersonalFinanceIndia #LiveLifeTricks
   image: campaign/images/2026-10-26/llt-emi.png
-- id: 2026-11-02-llt-ig-3
+- id: 2026-11-09-llt-ig-3
   account: livelifetricks-instagram
-  publish_at: 2026-11-06 21:00
+  publish_at: 2026-11-13 21:00
   status: approved
   text: |
     Making a marriage biodata? Do it in 5 minutes.
@@ -195,9 +195,9 @@ posts:
 
     #MarriageBiodata #Biodata #WeddingIndia #ShaadiTaiyari #LiveLifeTricks
   image: campaign/images/2026-10-26/llt-biodata.png
-- id: 2026-11-02-llt-ig-4
+- id: 2026-11-09-llt-ig-4
   account: livelifetricks-instagram
-  publish_at: 2026-11-08 19:30
+  publish_at: 2026-11-15 19:30
   status: approved
   text: |
     Your CTC is not your salary.
@@ -210,9 +210,9 @@ posts:
 
     #Salary #CTC #JobOffer #PersonalFinance #LiveLifeTricks
   image: campaign/images/2026-10-26/llt-ctc.png
-- id: 2026-11-02-llt-fb-1
+- id: 2026-11-09-llt-fb-1
   account: livelifetricks-facebook
-  publish_at: 2026-11-03 20:00
+  publish_at: 2026-11-10 20:00
   status: approved
   text: |
     New tax regime or old: which saves you more this year?
@@ -220,25 +220,25 @@ posts:
     It depends on your deductions. Our free calculator compares both for FY 2026-27 and tells you the break-even.
     https://livelifetricks.com/income-tax-calculator/
   image: campaign/images/2026-10-26/llt-regime.png
-- id: 2026-11-02-llt-fb-2
+- id: 2026-11-09-llt-fb-2
   account: livelifetricks-facebook
-  publish_at: 2026-11-05 20:00
+  publish_at: 2026-11-12 20:00
   status: approved
   text: |
     Wedding in the family? Make the marriage biodata in 5 minutes: 45 designs, 15 free, icons for every faith, ready to share on WhatsApp.
     https://livelifetricks.com/biodata/
   image: campaign/images/2026-10-26/llt-biodata.png
-- id: 2026-11-02-llt-fb-3
+- id: 2026-11-09-llt-fb-3
   account: livelifetricks-facebook
-  publish_at: 2026-11-07 20:00
+  publish_at: 2026-11-14 20:00
   status: approved
   text: |
     One extra EMI a year can take years off a 20-year home loan. See how much it saves on your loan:
     https://livelifetricks.com/emi-calculator/
   image: campaign/images/2026-10-26/llt-emi.png
-- id: 2026-11-02-ais-li-1
+- id: 2026-11-09-ais-li-1
   account: aiinterviewstack-linkedin
-  publish_at: 2026-11-02 12:30
+  publish_at: 2026-11-09 12:30
   status: approved
   text: |
     Interview question we're seeing more often:
@@ -254,9 +254,9 @@ posts:
     https://aiinterviewstack.com
 
     #InterviewPrep #ClaudeCode #AIEngineering #SoftwareEngineering
-- id: 2026-11-02-ais-li-2
+- id: 2026-11-09-ais-li-2
   account: aiinterviewstack-linkedin
-  publish_at: 2026-11-04 08:30
+  publish_at: 2026-11-11 08:30
   status: approved
   text: |
     "When would you delegate work to a subagent instead of doing it in the main session?"
@@ -271,9 +271,9 @@ posts:
     https://aiinterviewstack.com
 
     #InterviewPrep #AIAgents #GenAI #Careers
-- id: 2026-11-02-ais-li-3
+- id: 2026-11-09-ais-li-3
   account: aiinterviewstack-linkedin
-  publish_at: 2026-11-06 12:30
+  publish_at: 2026-11-13 12:30
   status: approved
   text: |
     System-design question for AI-era interviews:
@@ -290,9 +290,9 @@ posts:
     https://aiinterviewstack.com
 
     #SystemDesign #DevOps #AIEngineering #InterviewPrep
-- id: 2026-11-02-pdf-li-1
+- id: 2026-11-09-pdf-li-1
   account: mypdfupdate-linkedin
-  publish_at: 2026-11-03 12:30
+  publish_at: 2026-11-10 12:30
   status: approved
   text: |
     Most free PDF websites upload your file to their server. For salary slips, contracts or ID documents, that's a risk.
@@ -302,9 +302,9 @@ posts:
     https://mypdfupdate.com
 
     #Privacy #PDF #DataProtection #Productivity
-- id: 2026-11-02-pdf-li-2
+- id: 2026-11-09-pdf-li-2
   account: mypdfupdate-linkedin
-  publish_at: 2026-11-05 08:30
+  publish_at: 2026-11-12 08:30
   status: approved
   text: |
     Got a scanned PDF you can't search or copy text from?
@@ -315,9 +315,9 @@ posts:
     https://mypdfupdate.com
 
     #OfficeTips #PDF #Productivity #OCR
-- id: 2026-11-02-pdf-li-3
+- id: 2026-11-09-pdf-li-3
   account: mypdfupdate-linkedin
-  publish_at: 2026-11-06 08:30
+  publish_at: 2026-11-13 08:30
   status: approved
   text: |
     A 2-minute workflow for HR teams sending offer letters:
@@ -330,9 +330,9 @@ posts:
     All four steps in one place: https://mypdfupdate.com
 
     #HR #Recruiting #PDF #OfficeTips
-- id: 2026-11-02-cog-li-1
+- id: 2026-11-09-cog-li-1
   account: cognibrainpro-linkedin
-  publish_at: 2026-11-02 17:30
+  publish_at: 2026-11-09 17:30
   status: approved
   text: |
     Quick puzzle. Answer in 10 seconds:
@@ -346,9 +346,9 @@ posts:
     Try the free Brain Skills Challenge: https://cognibrainpro.com
 
     #CriticalThinking #Puzzles #Aptitude #BrainTraining
-- id: 2026-11-02-cog-li-2
+- id: 2026-11-09-cog-li-2
   account: cognibrainpro-linkedin
-  publish_at: 2026-11-04 17:30
+  publish_at: 2026-11-11 17:30
   status: approved
   text: |
     Mental math trick: multiplying a two-digit number by 11.
@@ -363,9 +363,9 @@ posts:
     https://cognibrainpro.com
 
     #MentalMath #Aptitude #Learning #BrainTraining
-- id: 2026-11-02-cog-li-3
+- id: 2026-11-09-cog-li-3
   account: cognibrainpro-linkedin
-  publish_at: 2026-11-06 12:30
+  publish_at: 2026-11-13 12:30
   status: approved
   text: |
     15 minutes a day. Mental math, memory, focus, logic, observation and critical thinking.
